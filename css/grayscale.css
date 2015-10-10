@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cagliostro', "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
 }
@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cagliostro', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -59,13 +59,14 @@ a:focus {
 
 .light {
     font-weight: 400;
+    font-size:24px;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'IM Fell English SC', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -297,7 +298,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cagliostro', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -371,3 +372,38 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+/*CUSTOM*/
+
+#taichi-tab {
+    color:#0B6138;
+}
+.about-tabs {
+    display:inline-block;
+    color:#42dca3;
+    cursor:pointer;
+    font-size:24;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+}
+
+.about-tabs:hover {
+    color:#4BC8C6;
+}
+
+#class {
+    display:none;
+}
+
+#starfire {
+    display:none;
+}
+
+#starfire_logo {
+    width:80px;
+    margin:-15px;
+    margin-top:-20px;    
+}
+

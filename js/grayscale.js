@@ -176,3 +176,29 @@ function init() {
         icon: image
     });
 }
+
+
+$('#class-tab').click(function(){
+        $("#taichi").fadeOut();
+        $("#starfire").fadeOut();
+        $("#class").fadeIn();
+        $('#taichi-tab').css("color","#42dca3");
+        $('#starfire-tab').css("color","#42dca3");
+        $('#class-tab').css("color","#0B6138");
+    });
+$('#starfire-tab').click(function(){
+        $("#class").fadeOut(600);
+        $("#taichi").fadeOut(600);
+        $("#starfire").fadeIn(600);
+        $('#class-tab').css("color","#42dca3");
+        $('#taichi-tab').css("color","#42dca3");
+        $('#starfire-tab').css("color","#0B6138");
+    });
+$('#taichi-tab').click(function(){
+        $("#class").fadeOut(600);
+        $("#starfire").fadeOut(600);
+        $("#taichi").fadeIn(600);
+        $('#class-tab').css("color","#42dca3");
+        $('#starfire-tab').css("color","#42dca3");
+        $('#taichi-tab').css("color","#4BC8C6");
+    });
