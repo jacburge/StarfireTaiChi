@@ -5,14 +5,14 @@ from flask import render_template
 def index():
 	return render_template('index.html')
 
-@app.route('../templates/about/')
-def professional():
+@app.route('/about/')
+def about():
 	return render_template('about.html')
 
-@app.route('../templates/schedule/')
-def creative():
+@app.route('/schedule/')
+def schedule():
 	return render_template('schedule.html')
 
-@app.route('../templates/news/')
-def fun():
+@app.route('/news/')
+def news():
 	return render_template('news.html')
