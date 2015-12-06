@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Cagliostro', "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+/*    color: #fff;*/
     background-color: #000;
 }
 
@@ -32,15 +32,15 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
+        font-size: 26px;
+        line-height: 2;
     }
 }
 
@@ -59,7 +59,7 @@ a:focus {
 
 .light {
     font-weight: 400;
-    font-size:24px;
+    font-size:28px;
 }
 
 .navbar-custom {
@@ -91,6 +91,7 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+    font-size: x-large;
 }
 
 .navbar-custom .nav li a {
@@ -166,7 +167,7 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 @media(min-width:768px) {
@@ -180,7 +181,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 32px;
     }
 }
 
@@ -383,10 +384,19 @@ body {
     display:inline-block;
     color:#42dca3;
     cursor:pointer;
-    font-size:24;
+    font-size:28px;
     transition:.3s;
     -webkit-transition:.3s;
     -moz-transition:.3s;
+    z-index: 100;
+}
+
+.about-text {
+    background-color: white;
+    padding: 50px;
+    font:black !important;
+    margin-top:50px;
+    position:relative;
 }
 
 .about-tabs:hover {
@@ -401,9 +411,40 @@ body {
     display:none;
 }
 
+#quinn {
+    display:none;
+}
+
 #starfire_logo {
     width:80px;
     margin:-15px;
     margin-top:-20px;    
 }
 
+#quinn-photo {
+    width:60%;
+    height:auto;
+}
+
+#calendar {
+    background-color: white;
+    color:black;
+    width:100%;
+    font-size:26px;
+}
+
+#calendar th {
+    text-align: center;
+    color:#4BC8C6;
+}
+
+#calendar table, th, td {
+    border:1px solid black;
+    padding:20px;
+}
+#about-nav {
+    text-align: center;
+    margin-top:100px;
+    width:100%;
+    position:absolute;
+}
