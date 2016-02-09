@@ -16,3 +16,7 @@ def schedule():
 @app.route('/news/')
 def news():
 	return render_template('news.html')
+
+@app.route('/retreat/')
+def retreat():
+	return render_template('retreat.html')
