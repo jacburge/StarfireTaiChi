@@ -451,8 +451,24 @@ body {
 
 #btn-box {
     border-radius:5%;
-    background-color:#0B4C5F;
+    border:5px solid #0B4C5F;
     padding:50px;
+}
+
+.notelinks {
+    font-size:20px;
+    padding:10px;
+ /*   border:1px solid #0B4C5F;*/
+    background-color: #848484;
+    color:white;
+    width:80%;
+    transition:.3s;
+}
+
+.notelinks:hover {
+    background-color: white;
+    border:1px solid #42dca3;
+    color:#42dca3;
 }
 
 hr.style-one {
